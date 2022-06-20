@@ -1,4 +1,4 @@
-        #Language: pt
+        #Language:pt
 
         Funcionalidade: Login na plataforma
         Como cliente da EBAC SHOP
@@ -15,10 +15,12 @@
 
         Esquema do Cenário: Dados inválidos
         Quando eu digitar no campo <username>
-        E a senha "eBAC213cesar"
+        E a no campo <senha>
         Então deve exibir uma <mensagem> de erro
 
         Examples:
-            | Jaqueline@gmail.com | erro no login | ou senha |
-            | Miguel@gmail.com    | erro no login | ou senha |
-            | Anthony@gmail.com   | erro no login | ou senha |
+            | username          | senha             | mensagem                                |
+            | cesar@gmail.com   | ebaccesar123      | Seja bem vindo César! boas compras      |
+            | cesar@hotmail.com | ebaccesar124      | Ops ! cadastro inválido tente novamente |
+            | Jaque@gmail.com   | ebacjaqueline1234 | Seja bem vindo Jaqueline! boas compras  |
+

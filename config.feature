@@ -6,13 +6,11 @@ Quero configurar meu produto de acordo com meu tamanho e gosto
 E escolher a quantidade 
 Para depois inserir no carrinho
 
-Contexto:
-Dado que eu acesse a plataforma EBAC SHOP
-
 Cenário: Seleção do produto
-Quando eu encontrar o produto qual estou buscando devo selecina-lo
-E escolher as cores, tamanho e quantidade.
-Então devo clicar no botão "comprar" para finalizar minha compra
+Dado que eu acesse a plataforma EBAC SHOP
+Quando eu selecinar os produtos com as cores, tamanho e quantidade
+E finalizo clicando no botão "comprar"
+Então a tela retorna para à pagina inicial
 
 
 Cenário: Quantidade de produtos

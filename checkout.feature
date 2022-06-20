@@ -17,8 +17,10 @@
         Então deve aparecer uma mensagem de erro
 
         Examples:
+            | Email  | resultado do cadastro  |
             | Jaque.hotmail.com  | email inválido |
             | Anthony@hotmal.com | email inválido |
+            | Cesar@hotmail.com  | email válido |
 
         Cenário: Campos vazios 
         Dado que esqueça de preencher uns dos campos 
